@@ -11510,7 +11510,7 @@
 		(sheetname "/Power_switch/")
 		(sheetfile "Power_switch.kicad_sch")
 		(solder_mask_margin 0.038)
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.9 -0.4)
 			(end -0.9 0.4)
@@ -11650,7 +11650,7 @@
 		(path "/feb71d04-874a-40da-8b7d-09df3cb82fe7/7310b2f8-1250-48d0-b90f-ed672d6f67c9")
 		(sheetname "/ATX connector/")
 		(sheetfile "ATX connector.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 5.5327 0.973)
 			(end 1.159732 0.973)
@@ -17897,7 +17897,7 @@
 		(path "/feb71d04-874a-40da-8b7d-09df3cb82fe7/cf1025f3-1164-4f1c-b220-e9196c11e26c")
 		(sheetname "/ATX connector/")
 		(sheetfile "ATX connector.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 21.29 8.86)
 			(end 23.1 8.86)
@@ -29308,7 +29308,7 @@
 		(path "/ff3476d7-2f10-4f79-9864-988601c7ce1b/68baf627-2c92-4bc3-acb3-79e7c04d01a9")
 		(sheetname "/Backplane/")
 		(sheetfile "backplane.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -29410,11 +29410,23 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "71e8f95e-b1e6-45db-9928-d40a7995fe15")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/8fd5ae83-0658-4178-9e81-18085647e2bb/e2f44422-9349-4180-ae98-8b0549cf852f")
 		(sheetname "/USB/")
 		(sheetfile "USB.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.67 -0.1)
 			(end 4.67 -1.8)
@@ -37371,7 +37383,7 @@
 		(path "/ff3476d7-2f10-4f79-9864-988601c7ce1b/b7c2c80d-8ff4-412e-94ce-f764f8a3191c")
 		(sheetname "/Backplane/")
 		(sheetfile "backplane.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 86.63 0.26)
 			(end 81.11 0.26)
@@ -44183,7 +44195,7 @@
 		(sheetname "/ST-LINK/")
 		(sheetfile "st-link.kicad_sch")
 		(solder_mask_margin 0.038)
-		(attr exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.9 0.4)
 			(end -0.9 0.4)
@@ -44959,7 +44971,7 @@
 		(path "/eabd1460-37fc-4011-96d2-589aebf98c67/3a81cf39-1f82-4eab-b69f-6a98b33bae34")
 		(sheetname "/Power_switch/")
 		(sheetfile "Power_switch.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_rect
 			(start 0 0)
 			(end 62.23 26.67)
@@ -48120,6 +48132,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C273515"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "af70b825-3d7a-41b8-8f79-c5fe35f78c24")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -60590,7 +60614,7 @@
 		(sheetname "/Power_switch/")
 		(sheetfile "Power_switch.kicad_sch")
 		(solder_mask_margin 0.038)
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.9 -0.4)
 			(end -0.9 0.4)
@@ -61462,7 +61486,7 @@
 		(path "/ff3476d7-2f10-4f79-9864-988601c7ce1b/822e4ef3-ac41-4822-859f-75682584d25b")
 		(sheetname "/Backplane/")
 		(sheetfile "backplane.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -65018,8 +65042,8 @@
 		(embedded_fonts no)
 	)
 	(gr_circle
-		(center 181.37 82.085001)
-		(end 181.37 82.285001)
+		(center 96.17 107.485001)
+		(end 96.17 107.685001)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -65029,8 +65053,8 @@
 		(uuid "08aac444-d6d1-44eb-aa62-5a439ab0562d")
 	)
 	(gr_line
-		(start 181.995 91.285001)
-		(end 178.745 91.285001)
+		(start 96.795 116.685001)
+		(end 93.545 116.685001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65039,8 +65063,8 @@
 		(uuid "1f2031ff-adde-454d-a05d-7acd00c13fb5")
 	)
 	(gr_line
-		(start 178.77 91.685001)
-		(end 182.02 91.685001)
+		(start 93.57 117.085001)
+		(end 96.82 117.085001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65049,8 +65073,8 @@
 		(uuid "29b9e7e4-3adb-45ea-a6ae-066887d928f2")
 	)
 	(gr_line
-		(start 167.02 81.605001)
-		(end 166.52 81.605001)
+		(start 81.82 107.005001)
+		(end 81.32 107.005001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65069,8 +65093,8 @@
 		(uuid "41b6f53b-84be-42e3-a7d6-dcbfce506c45")
 	)
 	(gr_line
-		(start 167.02 86.205001)
-		(end 166.52 86.205001)
+		(start 81.82 111.605001)
+		(end 81.32 111.605001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65079,8 +65103,8 @@
 		(uuid "54a719d2-4893-460d-99c8-f53bcc60cca3")
 	)
 	(gr_line
-		(start 167.17 91.685001)
-		(end 166.52 91.685001)
+		(start 81.97 117.085001)
+		(end 81.32 117.085001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65099,8 +65123,8 @@
 		(uuid "58653bff-3608-4f5f-a397-ea45cbf79bc8")
 	)
 	(gr_circle
-		(center 181.37 95.285001)
-		(end 181.37 95.485001)
+		(center 96.17 120.685001)
+		(end 96.17 120.885001)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -65110,8 +65134,8 @@
 		(uuid "5c69cd86-9c03-4141-9eb8-4fa94551f00c")
 	)
 	(gr_line
-		(start 182.02 86.285001)
-		(end 182.02 91.285001)
+		(start 96.82 111.685001)
+		(end 96.82 116.685001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65120,8 +65144,8 @@
 		(uuid "779385f8-6307-4009-9077-f01bd628fcc4")
 	)
 	(gr_line
-		(start 182.02 91.685001)
-		(end 182.02 95.965001)
+		(start 96.82 117.085001)
+		(end 96.82 121.365001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65130,8 +65154,8 @@
 		(uuid "8ba5a23f-53d6-4097-91bc-e31a302ee9ae")
 	)
 	(gr_line
-		(start 166.52 96.085001)
-		(end 167.57 96.085001)
+		(start 81.32 121.485001)
+		(end 82.37 121.485001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65140,8 +65164,8 @@
 		(uuid "8bb7afd5-e3a2-40d5-ac5f-e4e07cf9ada9")
 	)
 	(gr_line
-		(start 175.37 86.285001)
-		(end 181.995 86.285001)
+		(start 90.17 111.685001)
+		(end 96.795 111.685001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65150,8 +65174,8 @@
 		(uuid "8fa958bd-5f94-438c-81b4-778552c43780")
 	)
 	(gr_line
-		(start 180.97 81.405001)
-		(end 182.02 81.405001)
+		(start 95.77 106.805001)
+		(end 96.82 106.805001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65160,8 +65184,8 @@
 		(uuid "a6411ea7-163b-4efe-854e-0e1a7f9a8ac9")
 	)
 	(gr_line
-		(start 166.52 91.285001)
-		(end 167.17 91.285001)
+		(start 81.32 116.685001)
+		(end 81.97 116.685001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65170,8 +65194,8 @@
 		(uuid "aa3c9dc2-df06-4bd0-a52a-336dd99cee6b")
 	)
 	(gr_line
-		(start 166.52 81.605001)
-		(end 166.52 85.885001)
+		(start 81.32 107.005001)
+		(end 81.32 111.285001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65180,8 +65204,8 @@
 		(uuid "c75b57fe-7a09-4858-8320-f1085e80ea66")
 	)
 	(gr_line
-		(start 166.52 85.885001)
-		(end 167.02 85.885001)
+		(start 81.32 111.285001)
+		(end 81.82 111.285001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65190,8 +65214,8 @@
 		(uuid "cf1a3176-58de-4bf6-96fd-4c919d57f505")
 	)
 	(gr_line
-		(start 166.52 86.205001)
-		(end 166.52 91.285001)
+		(start 81.32 111.605001)
+		(end 81.32 116.685001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65210,8 +65234,8 @@
 		(uuid "d7bbae1d-3f46-413b-b3b7-d5160303a569")
 	)
 	(gr_line
-		(start 166.52 91.685001)
-		(end 166.52 96.085001)
+		(start 81.32 117.085001)
+		(end 81.32 121.485001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65220,8 +65244,8 @@
 		(uuid "dbaeac01-4b93-4cd3-81a9-4869bc6770ac")
 	)
 	(gr_line
-		(start 182.02 81.405001)
-		(end 182.02 85.885001)
+		(start 96.82 106.805001)
+		(end 96.82 111.285001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65230,8 +65254,8 @@
 		(uuid "de2cf76b-7491-4b6b-a9ac-59cc27864872")
 	)
 	(gr_rect
-		(start 167.77 95.185001)
-		(end 180.77 97.385001)
+		(start 82.57 120.585001)
+		(end 95.57 122.785001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65241,8 +65265,8 @@
 		(uuid "e9c5a202-1ad1-4f51-b734-f22ee53319f9")
 	)
 	(gr_line
-		(start 182.02 95.965001)
-		(end 180.97 95.965001)
+		(start 96.82 121.365001)
+		(end 95.77 121.365001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65261,8 +65285,8 @@
 		(uuid "fc3fbd48-3209-4992-85b7-0cae91006f48")
 	)
 	(gr_circle
-		(center 167.17 95.485001)
-		(end 167.17 95.685001)
+		(center 81.97 120.885001)
+		(end 81.97 121.085001)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -65272,8 +65296,8 @@
 		(uuid "fd03fafa-3751-4dd9-a0c3-aac363c0f5b3")
 	)
 	(gr_line
-		(start 182.02 85.885001)
-		(end 175.37 85.885001)
+		(start 96.82 111.285001)
+		(end 90.17 111.285001)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -67131,7 +67155,7 @@
 		)
 	)
 	(gr_text "Template authors:"
-		(at 167.57 91.885001 0)
+		(at 82.37 117.285001 0)
 		(layer "F.SilkS")
 		(uuid "387dce13-2467-4240-8523-e61e7cbba48f")
 		(effects
@@ -67181,7 +67205,7 @@
 		)
 	)
 	(gr_text "PROJECT  Rev. A\nTEMPLATE Rev. 1.0.1\n"
-		(at 167.37 89.085001 0)
+		(at 82.17 114.485001 0)
 		(layer "F.SilkS")
 		(uuid "6850c16c-88e7-4515-8901-a877ea6d447a")
 		(effects
@@ -67193,7 +67217,7 @@
 		)
 	)
 	(gr_text "Project info:"
-		(at 167.37 86.485001 0)
+		(at 82.17 111.885001 0)
 		(layer "F.SilkS")
 		(uuid "6e9b9f9a-bc96-4e76-9494-c7f9cad78e2d")
 		(effects
@@ -67207,7 +67231,7 @@
 		)
 	)
 	(gr_text "ModuCard PSU\n${COMMENT2}\n"
-		(at 167.17 84.885001 0)
+		(at 81.97 110.285001 0)
 		(layer "F.SilkS")
 		(uuid "70329fca-29cf-46a3-84da-fb2b8548ff84")
 		(effects
@@ -67255,7 +67279,7 @@
 		)
 	)
 	(gr_text "Dominik Pluta\nArtem Horiunov"
-		(at 167.57 94.685001 0)
+		(at 82.37 120.085001 0)
 		(layer "F.SilkS")
 		(uuid "d37f170a-a0ee-4f04-8fb4-0a6c9580f582")
 		(effects
@@ -67267,7 +67291,7 @@
 		)
 	)
 	(gr_text "ModuCard System\n"
-		(at 167.37 82.085001 0)
+		(at 82.17 107.485001 0)
 		(layer "F.SilkS")
 		(uuid "ea8389bd-dc9f-493f-b395-420059cc355a")
 		(effects
@@ -67293,7 +67317,7 @@
 		)
 	)
 	(gr_text "${CURRENT_DATE}"
-		(at 169.17 96.885001 0)
+		(at 83.97 122.285001 0)
 		(layer "F.SilkS")
 		(uuid "fc17f9ed-a960-4c8a-914a-05d685c62e66")
 		(effects
