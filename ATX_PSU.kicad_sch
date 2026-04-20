@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "090a8e41-87a8-4fb1-998b-60a2c0dc4cee")
 	(paper "A4")
 	(title_block
@@ -14,9 +14,6 @@
 		(comment 3 "Fork author: Wojciech Szafrański")
 	)
 	(lib_symbols)
-	(bus_alias "CAN"
-		(members "+" "-")
-	)
 	(no_connect
 		(at 133.35 66.04)
 		(uuid "225d1b4d-20a1-48d7-98fe-8709d91fa2b8")
@@ -377,11 +374,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0158e235-e8c1-4e7e-a900-a22642d17049")
 		(property "Sheetname" "CAN transceiver 2"
 			(at 175.26 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -391,6 +390,8 @@
 		)
 		(property "Sheetfile" "can-transceiver.kicad_sch"
 			(at 175.514 125.222 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -438,11 +439,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3f4a4c31-63d6-4264-8452-81b45fffd897")
 		(property "Sheetname" "CAN transceiver 1"
 			(at 175.26 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -452,6 +455,8 @@
 		)
 		(property "Sheetfile" "can-transceiver.kicad_sch"
 			(at 175.006 111.252 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,11 +505,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8fd5ae83-0658-4178-9e81-18085647e2bb")
 		(property "Sheetname" "USB"
 			(at 175.26 27.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,6 +521,8 @@
 		)
 		(property "Sheetfile" "USB.kicad_sch"
 			(at 175.26 42.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -562,11 +571,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ae074854-c02c-496b-964f-ecb8956e53f8")
 		(property "Sheetname" "MCU"
 			(at 213.36 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -576,6 +587,8 @@
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
 			(at 213.36 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,11 +717,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "c4e62f69-aed8-45c4-bc74-414bd9b2dcad")
 		(property "Sheetname" "USB-hub"
 			(at 175.26 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -718,6 +733,8 @@
 		)
 		(property "Sheetfile" "USB-hub.kicad_sch"
 			(at 175.26 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -776,11 +793,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e8ac371f-5104-4cae-bf76-5dce1f5864c3")
 		(property "Sheetname" "QSPI FLASH"
 			(at 175.26 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,6 +809,8 @@
 		)
 		(property "Sheetfile" "QSPI FLASH.kicad_sch"
 			(at 175.26 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,11 +849,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "eabd1460-37fc-4011-96d2-589aebf98c67")
 		(property "Sheetname" "Power_switch"
 			(at 49.53 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,6 +865,8 @@
 		)
 		(property "Sheetfile" "Power_switch.kicad_sch"
 			(at 49.53 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,6 +876,8 @@
 		)
 		(property "Field2" ""
 			(at 49.53 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,11 +945,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ed5910e5-42de-4923-b023-9e23a66937d0")
 		(property "Sheetname" "ST-LINK"
 			(at 175.26 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,6 +961,8 @@
 		)
 		(property "Sheetfile" "st-link.kicad_sch"
 			(at 175.26 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -989,11 +1020,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "feb71d04-874a-40da-8b7d-09df3cb82fe7")
 		(property "Sheetname" "ATX connector"
 			(at 49.53 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,6 +1036,8 @@
 		)
 		(property "Sheetfile" "ATX connector.kicad_sch"
 			(at 49.784 77.978 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,11 +1086,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ff3476d7-2f10-4f79-9864-988601c7ce1b")
 		(property "Sheetname" "Backplane"
 			(at 133.35 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1065,6 +1102,8 @@
 		)
 		(property "Sheetfile" "backplane.kicad_sch"
 			(at 133.35 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
